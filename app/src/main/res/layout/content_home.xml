@@ -19,23 +19,28 @@
         android:orientation="vertical">
 
 
-        <Button
-            android:id="@+id/btnEmergency"
-            android:layout_width="180dp"
-            android:layout_height="150dp"
-            android:layout_x="110dp"
-            android:layout_y="95dp"
-            android:textColor="@color/btnRegister"
-            android:layout_marginTop="50dp"
-            android:background="@drawable/emergencybtn"
-            android:textAlignment="center"
-            android:textSize="36dp" />
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnEmergency"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:textColor="@color/btnRegister"
+                android:layout_margin="15dp"
+                android:background="@drawable/emergencybtn"
+                android:textAlignment="center"
+                android:textSize="36dp" />
+
+        </android.support.v7.widget.CardView>
+
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="20dp"
             android:text="Click Here For Emergency"
             android:textAlignment="center"
             android:textColor="@android:color/darker_gray"
