@@ -163,8 +163,8 @@ public class Home extends AppCompatActivity
             Intent intent = new Intent(Home.this, Profile.class);
             startActivity(intent);
         } else if (id == R.id.nav_home) {
-            Intent intent = new Intent(Home.this, Home.class);
-            startActivity(intent);
+//            Intent intent = new Intent(Home.this, Home.class);
+//            startActivity(intent);
         } else if (id == R.id.nav_contact) {
 
         } else if (id == R.id.nav_history) {
